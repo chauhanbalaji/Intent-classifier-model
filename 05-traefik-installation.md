@@ -20,6 +20,7 @@
 ## 3. Verify Installation
 
     kubectl get pods -n traefik
+    kubectl get all -n  traefik
 
 You should see the Traefik controller running.
 
