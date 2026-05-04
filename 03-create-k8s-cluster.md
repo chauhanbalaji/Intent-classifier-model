@@ -13,8 +13,8 @@ You should have these installed and configured:
 ## 2. Create a Simple EKS Cluster
 
     eksctl create cluster \
-      --name my-cluster \
-      --region us-east-1 \
+      --name demo-cluster \
+      --region ap-south-1 \
       --version 1.32 \
       --nodegroup-name standard-workers \
       --node-type t3.medium \
